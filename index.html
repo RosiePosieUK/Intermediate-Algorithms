@@ -33,6 +33,7 @@
 /*Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.*/
 
 function diffArray(arr1, arr2) {
+<<<<<<< HEAD
   var result = [];
   var merged = arr1.concat(arr2);
   var filtered = merged.filter(function(f){
@@ -42,6 +43,18 @@ function diffArray(arr1, arr2) {
   })
   // console.log(result);
   return result
+=======
+  var newArr = [];
+
+  // slice returns a new array with sections of the original array.
+  // filter returns a new array with items that pass the test in the callback function
+  // index of can find if an element exists in the array
+
+  // cycle through arr1
+  // 
+
+
+>>>>>>> origin/master
 }
 
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
